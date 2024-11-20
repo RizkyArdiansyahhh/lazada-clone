@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+
+    <!-- Boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Icon Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
+    <!-- HEADER START -->
+
+    <!-- Navbar Start -->
+
     <section class="navigasi container p-0 py-1">
       <nav class="navbar navbar-expand-lg p-0">
         <div class="container-fluid d-flex justify-content-end">
@@ -60,7 +80,7 @@
     <section class="logo container-fluid bg-white sticky-top">
       <nav class="navbar navbar-expand-lg container bg-white py-3">
         <div class="container-fluid bg-white">
-          <a class="navbar-brand bg-white" href="#"
+          <a class="navbar-brand bg-white" href="index.html"
             ><img src="img/icon.png" alt="logo" class="logo-icon bg-white"
           /></a>
           <button
@@ -96,5 +116,420 @@
         </div>
       </nav>
     </section>
+
+    <!-- Navbar End -->
+
+    <!-- HEADER END -->
+    <!-- MAIN START -->
+    <main class="container-fluid bg-white">
+      <section class="masukan container bg-white">
+        <div class="row d-flex justify-content-center bg-white">
+          <div class="col-8 bg-white">
+            <div class="row bg-white">
+              <div class="col-12 d-flex align-items-center bg-white">
+                <img
+                  src="img/icon.png"
+                  alt=""
+                  class="img-fluid logo-icon me-5 bg-white"
+                />
+                <span class="fs-4 me-5 bg-white">|</span>
+                <p class="mb-0 fw-medium fs-5 bg-white">Masukan</p>
+              </div>
+              <div class="col-12 bg-white mb-5">
+                <p class="mb-1 fw-normal mt-3 bg-white fs-5">
+                  Masukan kamu sangat berharga. Apa yang perlu kami
+                  tingkatkan?<span class="text-danger bg-white">*</span>
+                </p>
+                <form
+                  action="index.html"
+                  enctype="multipart/form-data"
+                  class="bg-white"
+                >
+                  <div class="bg-white">
+                    <textarea
+                      class="form-control bg-white"
+                      id="exampleFormControlTextarea1"
+                      name="user_feedback"
+                      rows="7"
+                      placeholder="Masukkan Kamu Sangat Berharga."
+                      required
+                    ></textarea>
+                  </div>
+                  <p class="mb-0 fw-normal pt-3 bg-white fs-5">
+                    Unggah gambar agar kami dapat memahami lebih baik.
+                  </p>
+                  <p class="mb-0 fw-normal pt-1 bg-white text-secondary">
+                    Kamu dapat mengunggah maks. 10 tangkapan layar
+                  </p>
+                  <div class="pb-3 bg-white">
+                    <input
+                      class="form-control pt-3 bg-white"
+                      type="file"
+                      id="formFile"
+                      name="user_images"
+                      multiple
+                      required
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-danger btn-kirim">
+                    Kirim
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- MAIN END -->
+
+    <footer>
+      <section class="promo container pt-5 px-0">
+        <div class="row mt-5">
+          <div class="col-12 col-sm-3">
+            <p class="fw-medium fs-5 judul-link mb-0">Layanan Pelanggan</p>
+            <ul class="list-unstyled">
+              <li>
+                <a class="link-footer"> Pusat Bantuan </a>
+              </li>
+              <li>
+                <a class="link-footer"> Cara Pembelian </a>
+              </li>
+              <li>
+                <a class="link-footer"> Pengiriman </a>
+              </li>
+              <li>
+                <a class="link-footer"> Kebijakan Produk Internasional </a>
+              </li>
+              <li>
+                <a class="link-footer"> Cara Pengembalian </a>
+              </li>
+              <li>
+                <div class="bg-orange">
+                  <a class="link-footer bg-orange">
+                    Ada pertanyaan? Hubungi kami di live chat (24 jam)
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-3">
+            <p class="fw-medium fs-5 judul-link mb-0">Jelajahi Lazada</p>
+            <ul class="list-unstyled">
+              <li>
+                <a class="link-footer">Tentang Lazada </a>
+              </li>
+              <li>
+                <a class="link-footer">Affiliate Program </a>
+              </li>
+              <li>
+                <a class="link-footer">Karir </a>
+              </li>
+              <li>
+                <a class="link-footer"> Syarat & Ketentuan </a>
+              </li>
+              <li>
+                <a class="link-footer">Kebijakan Privasi </a>
+              </li>
+              <li>
+                <a class="link-footer">Press & Media </a>
+              </li>
+              <li>
+                <a class="link-footer">Jual Di Lazada </a>
+              </li>
+              <li>
+                <a class="link-footer">Lazada Security </a>
+              </li>
+              <li>
+                <a class="link-footer">Intellectual Property Protection </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-3 pt-4">
+            <div class="row">
+              <div class="col-3">
+                <img
+                  src="img/tautan-donwload/tautan1.png "
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col-9">
+                <p class="mb-0 fw-normal tautan-orange">Always Better</p>
+                <p class="fw-normal tautan-biru">Donwload the App</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-3 pt-4 ps-0">
+            <div class="row">
+              <div class="col-5 mb-2 pe-0">
+                <img
+                  src="img/tautan-donwload/appStore.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-5 mb-2 pe-0">
+                <img
+                  src="img/tautan-donwload/googlePlay.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-5 mb-2 pe-0">
+                <img
+                  src="img/tautan-donwload/appGalery.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="secondary-footer container-fluid bg-white">
+        <div class="container bg-white pb-4">
+          <div class="row bg-white">
+            <div class="col-12 col-sm-4 bg-white mt-5 px-0">
+              <p class="bg-white fw-medium">Metode Pembayaran</p>
+              <div class="row bg-white">
+                <div class="col-3 bg-white">
+                  <img
+                    src="img/tautan-donwload/metode-pembayaran/metode1.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-3 bg-white">
+                  <img
+                    src="img/tautan-donwload/metode-pembayaran/metode2.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-3 bg-white">
+                  <img
+                    src="img/tautan-donwload/metode-pembayaran/metode3.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 bg-white mt-5 px-0">
+              <p class="bg-white fw-medium">Jasa Pengiriman</p>
+              <div class="row bg-white">
+                <div class="col-4 bg-white">
+                  <img
+                    src="img/tautan-donwload/jasa-pengiriman/jasa1.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4 bg-white">
+                  <img
+                    src="img/tautan-donwload/jasa-pengiriman/jasa2.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4 bg-white">
+                  <img
+                    src="img/tautan-donwload/jasa-pengiriman/jasa3.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4 bg-white">
+                  <img
+                    src="img/tautan-donwload/jasa-pengiriman/jasa4.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4 bg-white">
+                  <img
+                    src="img/tautan-donwload/jasa-pengiriman/jasa5.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4 bg-white">
+                  <img
+                    src="img/tautan-donwload/jasa-pengiriman/jasa6.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4 bg-white">
+                  <img
+                    src="img/tautan-donwload/jasa-pengiriman/jasa7.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4 bg-white">
+                  <img
+                    src="img/tautan-donwload/jasa-pengiriman/jasa8.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4 bg-white">
+                  <img
+                    src="img/tautan-donwload/jasa-pengiriman/jasa9.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4 bg-white">
+                  <img
+                    src="img/tautan-donwload/jasa-pengiriman/jasa10.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 bg-white mt-5 px-0 overflow-hidden">
+              <p class="bg-white fw-medium">Verified by</p>
+              <div class="row bg-white">
+                <div class="col-3 bg-white">
+                  <img
+                    src="img/tautan-donwload/verivied/verif1.png"
+                    alt=""
+                    class="img-fluid bg-white"
+                  />
+                </div>
+                <div class="col-3 bg-white">
+                  <img
+                    src="img/tautan-donwload/verivied/verif2.png"
+                    alt=""
+                    class="img-fluid bg-white"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="last-footer container-fluid bg-white">
+        <div class="container bg-white">
+          <div
+            class="row country-footer bg-white pb-5 d-flex justify-content-between"
+          >
+            <div class="col-12 col-sm-4 bg-white mt-5 px-0 me-4 bg-white">
+              <p class="mb-0 fw-medium fs-5 bg-white">Lazada Southeast Asia</p>
+              <div class="d-flex bg-white">
+                <div class="bg-white">
+                  <img class="bg-white" src="img/country/country1.png" alt="" />
+                </div>
+                <div class="bg-white">
+                  <img class="bg-white" src="img/country/country2.png" alt="" />
+                </div>
+                <div class="bg-white">
+                  <img class="bg-white" src="img/country/country3.png" alt="" />
+                </div>
+                <div class="bg-white">
+                  <img class="bg-white" src="img/country/country4.png" alt="" />
+                </div>
+                <div class="bg-white">
+                  <img class="bg-white" src="img/country/country5.png" alt="" />
+                </div>
+                <div class="bg-white">
+                  <img class="bg-white" src="img/country/country6.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 bg-white mt-5 px-0 me-4 bg-white">
+              <p class="mb-0 fw-medium fs-5 bg-white">Follow Us</p>
+              <div class="d-flex gap-1 bg-white">
+                <div>
+                  <img
+                    class="bg-white"
+                    src="img/social-media/sosmed1.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    class="bg-white"
+                    src="img/social-media/sosmed2.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    class="bg-white"
+                    src="img/social-media/sosmed3.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    class="bg-white"
+                    src="img/social-media/sosmed4.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    class="bg-white"
+                    src="img/social-media/sosmed5.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    class="bg-white"
+                    src="img/social-media/sosmed6.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    class="bg-white"
+                    src="img/social-media/sosmed7.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    class="bg-white"
+                    src="img/social-media/sosmed8.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-sm-3 bg-white mt-5 px-0 me-4 bg-white bg-white"
+            >
+              <p class="mb-0 fw-medium text-secondary bg-white">
+                © Lazada 2024
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- Script Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

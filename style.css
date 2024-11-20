@@ -4,7 +4,11 @@
   box-sizing: border-box;
   background-color: #eff0f5 !important;
 }
-
+.btn-kirim {
+  background-color: #e27847 !important;
+  border-radius: 0 !important;
+  width: 10rem;
+}
 /* STYLE HEADER START */
 .navigasi nav {
   background-color: #f7f7f7 !important;
@@ -27,6 +31,9 @@
 
 .logo .logo-icon {
   height: 2.2rem;
+}
+.logo-icon {
+  height: 2.5rem;
 }
 .logo .btn-search,
 .logo .btn-search i {
