@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+/* STYLE HEADER START */
+header .navigasi nav {
+  background-color: #f7f7f7 !important;
+}
+header .navigasi nav .nav-link {
+  font-size: 0.8rem;
+}
+header .navigasi nav .nav-link:hover {
+  color: #e9945c;
+}
+header .navigasi nav .masukan {
+  color: #fd4bfe;
+}
+header .navigasi nav .not-masukan {
+  color: #0f1568;
+}
+header .navigasi nav .not-active {
+  color: #b3b3b3;
+}
+
+header .logo .logo-icon {
+  height: 2.2rem;
+}
+header .logo .btn-search,
+header .logo .btn-search i {
+  background-color: #f57224;
+}
+header .logo .btn-search i {
+  color: white;
+}
+header .logo .form-search {
+  width: 70%;
+  height: 3.5rem;
+}
+header .logo .form-control {
+  border-radius: 0 !important;
+  border: none !important;
+  background-color: #eff0f5 !important;
+}
+header .logo .btn-search {
+  border-radius: 0 !important;
+  width: 4rem !important;
+}
+header .logo .icon-chart {
+  color: #0c176a;
+}
+header .carousel .carousel-indicators button {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+}
+
+header .carousel .carousel-control-next-icon,
+header .carousel .carousel-control-prev-icon {
+  position: absolute;
+}
+
+header .carousel .carousel-control-next-icon {
+  right: 0;
+  border-radius: 50% 0 0 50%;
+}
+
+header .carousel .carousel-control-prev-icon {
+  left: 0;
+  border-radius: 0 50% 50% 0;
+}
+.carousel-inner img,
+.tautan img {
+  height: 380px;
+  object-fit: cover;
+  width: 100%;
+}
+
+header .menu .card-menu {
+  border-radius: 7px !important;
+  overflow: hidden;
+}
+header .menu .card-menu-lazmall {
+  transition: 0.2s;
+}
+header .menu .card-menu-lazmall:hover {
+  color: #ff003a;
+  cursor: pointer;
+}
+header .menu .card-menu-pulsa {
+  transition: 0.2s;
+}
+header .menu .card-menu-pulsa:hover {
+  color: #60b0e6;
+  cursor: pointer;
+}
+header .menu .card-menu-voucher {
+  transition: 0.2s;
+}
+header .menu .card-menu-voucher:hover {
+  color: #f5a623;
+  cursor: pointer;
+}
+header .menu .img-menu {
+  width: 8rem;
+  height: 8rem;
+}
+
+/* STYLE HEADER END */

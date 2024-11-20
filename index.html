@@ -14,14 +14,343 @@
     />
     <!-- Style CSS -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Icon Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <!-- Navbar Start -->
+      <section class="iklan container p-0">
+        <img src="img/iklan.webp" alt="iklan" class="w-100" />
+      </section>
+      <section class="navigasi container p-0 py-1">
+        <nav class="navbar navbar-expand-lg p-0">
+          <div class="container-fluid d-flex justify-content-end">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item ms-3">
+                  <a
+                    class="nav-link masukan fw-medium"
+                    aria-current="page"
+                    href="#"
+                    >MASUKAN</a
+                  >
+                </li>
+                <li class="nav-item ms-3">
+                  <a class="nav-link fw-medium not-masukan" href="#"
+                    >LEBIH MURAH DI APP</a
+                  >
+                </li>
+                <li class="nav-item ms-3">
+                  <a class="nav-link fw-medium not-masukan" href="#"
+                    >MENJADI SELLER</a
+                  >
+                </li>
+                <li class="nav-item ms-3">
+                  <a class="nav-link not-active" href="#">CUSTOMER CARE</a>
+                </li>
+                <li class="nav-item ms-3">
+                  <a class="nav-link not-active" href="#">LACAK PESANAN</a>
+                </li>
+                <li class="nav-item ms-3">
+                  <a class="nav-link not-active" href="#">LOGIN</a>
+                </li>
+                <li class="nav-item ms-3">
+                  <a class="nav-link not-active" href="#">DAFTAR</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section class="logo container-fluid bg-white">
+        <nav class="navbar navbar-expand-lg container bg-white py-3">
+          <div class="container-fluid bg-white">
+            <a class="navbar-brand bg-white" href="#"
+              ><img src="img/icon.png" alt="logo" class="logo-icon bg-white"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse bg-white"
+              id="navbarSupportedContent"
+            >
+              <form class="d-flex form-search ms-5" role="search">
+                <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Cari di Lazada"
+                  aria-label="Search"
+                />
+                <button class="btn btn-search" type="submit">
+                  <i class="bi bi-search"></i>
+                </button>
+              </form>
+              <a class="btn btn-cart ms-3" href="#"
+                ><i class="bi bi-cart fs-2 bg-white icon-chart"></i
+              ></a>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section class="carousel container">
+        <div class="row overflow-hidden">
+          <div class="col-12 col-md-9 p-0 mb-3">
+            <div
+              id="carouselExampleInterval"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators bg-transparent">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleInterval"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleInterval"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleInterval"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleInterval"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleInterval"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleInterval"
+                  data-bs-slide-to="5"
+                  aria-label="Slide 6"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleInterval"
+                  data-bs-slide-to="6"
+                  aria-label="Slide 7"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                  <a
+                    href="https://www.lazada.co.id/shop/eiger-adventure-official-store?path=index.htm&lang=id&pageTypeId=1&spm=a2o4j.homepage.bannerSliderDesktop.d_4"
+                  >
+                    <img
+                      src="img/carousel/1.avif"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </a>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <a
+                    href="https://pages.lazada.co.id/wow/gcp/route/lazada/id/upr_1000345_lazada/channel/id/upr-router/id_upr?hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=%2Flazada%2Fsuperseries%2Fid%2Flsbdloreal21nov%2FwxypMdk4fr&spm=a2o4j.homepage.bannerSliderDesktop.d_5"
+                  >
+                    <img
+                      src="img/carousel/2.avif"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </a>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <a
+                    href="https://www.lazada.co.id/shop/madame-gie?path=index.htm&lang=id&pageTypeId=1&spm=a2o4j.homepage.bannerSliderDesktop.d_1"
+                  >
+                    <img
+                      src="img/carousel/3.avif"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </a>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <a
+                    href="https://pages.lazada.co.id/wow/gcp/route/lazada/id/upr_1000345_lazada/channel/id/upr-router/id_upr?hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=%2Flazada%2Fchannel%2Fid%2FHappyweek%2FmjyAFTn7Ah&spm=a2o4j.homepage.bannerSliderDesktop.d_6"
+                  >
+                    <img
+                      src="img/carousel/4.avif"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </a>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <a
+                    href="https://www.lazada.co.id/shop/luxus-indonesia?path=index.htm&lang=id&pageTypeId=1&spm=a2o4j.homepage.bannerSliderDesktop.d_3"
+                  >
+                    <img
+                      src="img/carousel/5.avif"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </a>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img
+                    src="img/carousel/6.avif"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img
+                    src="img/carousel/7.avif"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon bg-black"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon bg-black"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-3 p-0">
+            <a
+              href="https://apps.apple.com/us/app/lazada-all-shipping-on-us/id785385147"
+              class="tautan"
+              ><img src="img/carousel/right.png" alt="Tautan Donwload"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section class="menu container">
+        <div class="row">
+          <div class="col-12 col-md-4 mb-3">
+            <div class="row card-menu shadow-sm card-menu-lazmall">
+              <div class="col-6 bg-white">
+                <p class="fs-5 fw-normal mb-0 bg-white">LazMall</p>
+                <p class="fw-medium bg-white">
+                  Toko resmi dengan produk 100% original
+                </p>
+              </div>
+              <div class="col-6 bg-white text-end">
+                <img
+                  src="img/menu/lazMall.avif"
+                  alt="lazada Mall"
+                  class="img-menu bg-white"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <div class="row card-menu shadow-sm card-menu-pulsa">
+              <div class="col-6 bg-white">
+                <p class="fs-5 fw-normal mb-0 bg-white">Pulsa & Tagihan</p>
+                <p class="fw-medium bg-white">
+                  Isi pulsa, bayar tagihan, dan lainnya
+                </p>
+              </div>
+              <div class="col-6 bg-white text-end">
+                <img
+                  src="img/menu/pulsa&tagihan.avif"
+                  alt="pulsa & tagihan"
+                  class="img-menu bg-white"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <div class="row card-menu shadow-sm card-menu-voucher">
+              <div class="col-6 bg-white">
+                <p class="fs-5 fw-medium mb-0 bg-white">Voucher & Diskon</p>
+                <p class="fw-normal bg-white">
+                  Dapatkan Diskon & Klaim Voucher
+                </p>
+              </div>
+              <div class="col-6 bg-white text-end">
+                <img
+                  src="img/menu/vouche&discount.avif"
+                  alt="voucher & diskon"
+                  class="img-menu bg-white"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Navbar End -->
+    </header>
+    <main></main>
+    <footer></footer>
 
     <!-- Script Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
   </body>
