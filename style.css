@@ -4,6 +4,9 @@
   box-sizing: border-box;
   background-color: #f5f5f5;
 }
+body {
+  min-height: 3000px;
+}
 /* STYLE HEADER START */
 header .navigasi nav {
   background-color: #f7f7f7 !important;
@@ -108,3 +111,68 @@ header .menu .img-menu {
 }
 
 /* STYLE HEADER END */
+
+/* STYLE MAIN START */
+
+main .flash-sale .txt-dijual {
+  color: #f57424;
+}
+main .flash-sale #jam,
+main .flash-sale #menit,
+main .flash-sale #detik {
+  background-color: #d3232a;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+main .flash-sale .price {
+  color: #f57224;
+}
+main .flash-sale .price-diskon {
+  color: grey;
+}
+
+main .flash-sale .card-flash-sale,
+main .lazmall .card-lazmall {
+  border: none;
+  transition: 0.2s;
+  border-radius: 0;
+}
+main .flash-sale .card-flash-sale:hover,
+main .lazmall .card-lazmall:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+main .flash-sale .img-flash-sale {
+  border-radius: 0;
+}
+main .lazmall .container-img-lazmall {
+  position: relative;
+}
+
+main .lazmall .img-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -15%;
+  width: 4rem;
+  height: 4rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+main .lazmall .lazmall-more {
+  color: #1a9cb7;
+}
+main .kategori .card-kategori {
+  transition: 0.2s;
+  border-radius: 0;
+  border: none;
+}
+main .kategori .card-kategori:hover {
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+main .kategori .card-body .txt-card-kategori {
+  font-size: 0.85rem;
+}
+/* STYLE MAIN END */
