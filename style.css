@@ -2,74 +2,77 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #f5f5f5;
+  background-color: #eff0f5 !important;
 }
-body {
-  min-height: 3000px;
-}
+
 /* STYLE HEADER START */
-header .navigasi nav {
+.navigasi nav {
   background-color: #f7f7f7 !important;
 }
-header .navigasi nav .nav-link {
+.navigasi nav .nav-link {
   font-size: 0.8rem;
 }
-header .navigasi nav .nav-link:hover {
+.navigasi nav .nav-link:hover {
   color: #e9945c;
 }
-header .navigasi nav .masukan {
+.navigasi nav .masukan {
   color: #fd4bfe;
 }
-header .navigasi nav .not-masukan {
+.navigasi nav .not-masukan {
   color: #0f1568;
 }
-header .navigasi nav .not-active {
+.navigasi nav .not-active {
   color: #b3b3b3;
 }
 
-header .logo .logo-icon {
+.logo .logo-icon {
   height: 2.2rem;
 }
-header .logo .btn-search,
-header .logo .btn-search i {
-  background-color: #f57224;
+.logo .btn-search,
+.logo .btn-search i {
+  background-color: #f57224 !important;
 }
-header .logo .btn-search i {
-  color: white;
+.logo .btn-search i {
+  color: white !important;
 }
-header .logo .form-search {
+.logo .form-search {
   width: 70%;
   height: 3.5rem;
 }
-header .logo .form-control {
+.logo .form-control {
   border-radius: 0 !important;
   border: none !important;
   background-color: #eff0f5 !important;
 }
-header .logo .btn-search {
+.logo .btn-search {
   border-radius: 0 !important;
   width: 4rem !important;
 }
-header .logo .icon-chart {
+.logo .icon-chart {
   color: #0c176a;
 }
-header .carousel .carousel-indicators button {
+.carousel .carousel-indicators button {
   width: 0.8rem;
   height: 0.8rem;
   border-radius: 50%;
 }
-
-header .carousel .carousel-control-next-icon,
-header .carousel .carousel-control-prev-icon {
+.carousel .carousel-control-prev {
+  background-color: transparent !important;
+}
+.carousel .carousel-control-next {
+  background-color: transparent !important;
+}
+.carousel .carousel-control-next-icon,
+.carousel .carousel-control-prev-icon {
   position: absolute;
 }
 
-header .carousel .carousel-control-next-icon {
+.carousel .carousel-control-next-icon {
   right: 0;
   border-radius: 50% 0 0 50%;
 }
 
-header .carousel .carousel-control-prev-icon {
+.carousel .carousel-control-prev-icon {
   left: 0;
   border-radius: 0 50% 50% 0;
 }
@@ -80,32 +83,32 @@ header .carousel .carousel-control-prev-icon {
   width: 100%;
 }
 
-header .menu .card-menu {
+.menu .card-menu {
   border-radius: 7px !important;
   overflow: hidden;
 }
-header .menu .card-menu-lazmall {
+.menu .card-menu-lazmall {
   transition: 0.2s;
 }
-header .menu .card-menu-lazmall:hover {
+.menu .card-menu-lazmall:hover {
   color: #ff003a;
   cursor: pointer;
 }
-header .menu .card-menu-pulsa {
+.menu .card-menu-pulsa {
   transition: 0.2s;
 }
-header .menu .card-menu-pulsa:hover {
+.menu .card-menu-pulsa:hover {
   color: #60b0e6;
   cursor: pointer;
 }
-header .menu .card-menu-voucher {
+.menu .card-menu-voucher {
   transition: 0.2s;
 }
-header .menu .card-menu-voucher:hover {
+.menu .card-menu-voucher:hover {
   color: #f5a623;
   cursor: pointer;
 }
-header .menu .img-menu {
+.menu .img-menu {
   width: 8rem;
   height: 8rem;
 }
@@ -113,14 +116,13 @@ header .menu .img-menu {
 /* STYLE HEADER END */
 
 /* STYLE MAIN START */
-
 main .flash-sale .txt-dijual {
   color: #f57424;
 }
 main .flash-sale #jam,
 main .flash-sale #menit,
 main .flash-sale #detik {
-  background-color: #d3232a;
+  background-color: #d3232a !important;
   padding: 10px;
   color: white;
   font-weight: bold;
@@ -176,3 +178,43 @@ main .kategori .card-body .txt-card-kategori {
   font-size: 0.85rem;
 }
 /* STYLE MAIN END */
+
+/* STYLE FOOTER START */
+footer .judul-link {
+  color: #0f136d !important;
+}
+footer .bg-orange {
+  background-color: #f36f36;
+}
+footer .link-footer {
+  color: #0f136d;
+  text-decoration: none;
+  transition: 0.2s;
+  font-size: 0.85rem;
+}
+footer .link-footer:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+footer .tautan-orange {
+  color: #f36f36;
+  font-size: 1.1rem;
+}
+footer .tautan-biru {
+  color: #0f136d;
+  font-size: 1.1rem;
+}
+footer .footer-teks .deskripsi {
+  text-align: justify;
+  font-size: 0.7rem;
+}
+footer .footer-teks .judul-teks {
+  font-size: 0.8rem;
+}
+footer .footer-teks .text-biru {
+  color: #1a9cb7 !important;
+}
+footer .footer-teks .col-footer-teks {
+  background-color: #eff0f5 !important;
+}
+/* STYLE FOOTER END */
